@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AWDC Events</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Priyanshu Tiwari" >
+</head>
+<body background="img\bg.jpg">
+		 
+	<center><p class="us">Events</p></center><hr width="50%" >
+	<section id="portfolio">
+		<div class="container">
+			<div class="row">
+			
+			
+				<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-1"></div>
+							<a href="#" data-toggle="modal" data-slide-to="0">
+								<div class="overlay">
+									<h2>First Event</h2>
+									<p>First Event can't be forgotten</p> 
+								</div>
+							</a>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-2"></div>
+							<a href="#" data-toggle="modal" data-slide-to="1">
+								<div class="overlay">
+									<h2>Second Event</h2>
+									<p>Love at first sight</p> 
+								</div>
+							</a>
+					</div>
+				</div>
+				
+				<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-3"></div>
+							<a href="#" data-toggle="modal" data-slide-to="2">
+								<div class="overlay">
+									<h2>Third Event</h2>
+									<p>Love at second sight</p> 
+								</div>
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+			
+			
+				<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-2"></div>
+							<a href="#" data-toggle="modal" data-slide-to="0">
+								<div class="overlay">
+									<h2>Fourth Event</h2>
+									<p>This is our specialtiy. <br>We do woth love.</p> 
+								</div>
+							</a>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-1"></div>
+							<a href="#" data-toggle="modal" data-slide-to="1">
+								<div class="overlay">
+									<h2>Fifth Event</h2>
+									<p>lost in the thoughts of this event</p> 
+								</div>
+							</a>
+					</div>
+				</div>
+			<div class="col-md-4 thumbnail">
+					<div class="hovereffect">
+						<div class="col-md-12 photo-3"></div>
+							<a href="#" data-toggle="modal" data-slide-to="2">
+								<div class="overlay">
+									<h2>Sixth Event</h2>
+									<p>Awesome Events we conduct</p> 
+								</div>
+							</a>
+					</div>
+				</div>	
+				
+			</div>
+		</div>	
+	</section>
+		
+	
 
+	
+	<div class="footer">&copy AWDC</div>
+	
+</body>
+</html>
