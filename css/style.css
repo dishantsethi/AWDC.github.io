@@ -1,0 +1,187 @@
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+    padding-top: 70px;
+	 color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.8 ;
+	 //background-color:rgba(0,25,0,0.05);
+	 animation-name: changebg;
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+html {
+	overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:200;
+	color: #222;
+}
+
+p{
+	font-family: 'Playfair Display', serif;
+	font-weight:300;
+}
+
+section {
+	padding-top:85px;
+	padding-bottom:85px;
+}
+
+a,a:link {
+	color: #222;
+}
+
+a:hover,a:focus {
+	color: #222;
+}
+
+
+
+/* Hover Effect */
+
+.hovereffect a:link,.hovereffect a:hover,.hovereffect a:focus,.hovereffect a:visited {
+	color:#fff;
+}
+
+.hovereffect {
+  width: 100%;
+  height: 500px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  background: #cccccc;
+  cursor:pointer;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 500px;;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+  cursor:pointer;
+}
+
+.hovereffect a, .hovereffect p,.hovereffect h2 {
+  color: #fff;
+  text-decoration:none;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  color:#fff;
+  text-decoration:none;
+  opacity: 1;
+  letter-spacing:1px;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor:pointer;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect .photo-1, 
+.hovereffect .photo-2, 
+.hovereffect .photo-3,
+.hovereffect .photo-4,
+.hovereffect .photo-5,
+.hovereffect .photo-6{
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover .photo-1,
+.hovereffect:hover .photo-2,
+.hovereffect:hover .photo-3,
+.hovereffect:hover .photo-4,
+.hovereffect:hover .photo-5,
+.hovereffect:hover .photo-6{
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.photo-1,.photo-2,.photo-3,.photo-4,.photo-5,.photo-6{
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	background-position:center top;
+}
+
+
+.photo-1 {background-image: url('../img/1.jpg');}
+.photo-2 {background-image: url('../img/2.jpg');}
+.photo-3 {background-image: url('../img/3.jpg');}
+.photo-4 {background-image: url('../img/4.jpg');}
+.photo-5 {background-image: url('../img/5.jpg');}
+.photo-6 {background-image: url('../img/6.jpg');}
+
+
+.thumbnail {
+    background-color: transparent;
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 0px;
+    padding: 10px;
+    transition: border 0.2s ease-in-out 0s;
+}
+
+ .us{
+	font-size:50px;
+}
+.footer{
+text-align: center;
+font-family: 'Playfair Display';
+}
+hr{
+color:black;
+}
+	
+
