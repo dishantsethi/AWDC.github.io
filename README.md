@@ -1,1 +1,2 @@
-awdc.github.io
+# awdc.github.io
+Amity Web Designing Club
