@@ -191,7 +191,7 @@ img{
 	position: relative;
 }
 .slider_overlay {
-  background: none repeat scroll 0 0 #242434;
+  background: none repeat scroll 0 0 #ffa200c4;
   height: 100%;
   opacity: 0.8;
   position: absolute;
@@ -401,6 +401,7 @@ img{
 	padding-right: 50px;
 	font-size: 40px;
 	line-height: 40px;
+  border-bottom: 11px solid #FF8750FF;
 }
 .heading p{
 	font-size: 16px;
@@ -604,7 +605,7 @@ div[data-dimension] {
 /*--------------------*/
 
 #works {
-  background-color: #4f535e;
+  background-color: #ffffff;
   display: inline;
   float: left;
   padding: 0 0 80px;
